@@ -1,8 +1,6 @@
 {
-  "[astro]": {
-    "editor.defaultFormatter": "astro-build.astro-vscode"
-  },
   "[go]": {
+    "editor.defaultFormatter": "golang.go",
     "editor.formatOnSave": true
   },
   "[javascript]": {
@@ -29,23 +27,22 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.organizeImports": false
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
   },
-  "editor.cursorBlinking": "solid",
+  "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorStyle": "block",
-  "editor.fontFamily": "Monaspace Krypton Var",
-  // "editor.fontLigatures": true,
-  "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02', 'ss03', 'ss05', 'ss06', 'ss07', 'ss08',",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  // "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02', 'ss03', 'ss05', 'ss06', 'ss07', 'ss08'",
   "editor.fontSize": 16,
-  "editor.fontVariations": false,
-  "editor.fontWeight": 600,
+  "editor.fontVariations": true,
+  "editor.fontWeight": 400,
   "editor.formatOnSave": true,
   "editor.inlayHints.enabled": "off",
   "editor.inlineSuggest.enabled": true,
-  "editor.lineHeight": 28,
-  "editor.lineNumbers": "relative",
+  "editor.lineHeight": 1.75,
+  // "editor.lineNumbers": "relative",
   "editor.minimap.enabled": false,
   "editor.smoothScrolling": true,
   "editor.wordWrap": "on",
@@ -58,15 +55,25 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
+  "go.lintFlags": [
+    "--fast"
+  ],
+  "go.lintTool": "golangci-lint",
   "go.toolsManagement.autoUpdate": true,
+  "gopls": {
+    "ui.semanticTokens": true
+  },
   "material-icon-theme.files.color": "#CB8569",
   "material-icon-theme.folders.color": "#CB8569",
+  "security.workspace.trust.untrustedFiles": "open",
   "tailwindCSS.emmetCompletions": true,
+  "terminal.external.linuxExec": "alacritty",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "vscode-blur-linux.opacity": 80,
-  "workbench.colorTheme": "Serendipity Midnight",
+  "window.menuBarVisibility": "toggle",
+  "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none"
