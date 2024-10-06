@@ -52,6 +52,7 @@
   },
   "custom/logo": {
     "format": "",
+    "on-click": "wlogout -p layer-shell &",
     "tooltip": false
   },
 

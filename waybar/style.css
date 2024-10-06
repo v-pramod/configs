@@ -7,7 +7,7 @@
   font-weight: 600;
   padding: 0;
   margin: -1px;
-  color: @lavender;
+  color: @green;
 }
 
 window#waybar {
