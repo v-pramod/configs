@@ -57,8 +57,6 @@
   "gopls": {
     "ui.semanticTokens": true
   },
-  "material-icon-theme.files.color": "#CB8569",
-  "material-icon-theme.folders.color": "#CB8569",
   "security.workspace.trust.untrustedFiles": "open",
   "tailwindCSS.emmetCompletions": true,
   "terminal.external.linuxExec": "alacritty",
@@ -68,7 +66,6 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.menuBarVisibility": "toggle",
   "workbench.colorTheme": "Catppuccin Mocha",
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none"
 }
